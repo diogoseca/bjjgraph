@@ -1,23 +1,22 @@
-// FlashcardsHeader runtime — context-aware label + ▶/◾ play/stop toggle.
-// The DOM element persists across SPA navs via [data-persist]; this script
-// re-runs each "nav" event and patches text + icon based on current state.
+// FlashcardsHeader runtime — pure-noun wayfinding pill.
+// The play/stop button lives in a separate RollSessionButton component; the
+// strip itself never carries a verb (avoids colliding with the adjacent roll
+// button — "training" used to mean both flashcards and rolling).
 //
 //  Label state machine:
-//    Idle, due > 0          → "Flashcards (N due)"
-//    Active session         → "Session  X/Y"
-//    Idle, 0 due, no SRS    → "Start training"
-//    Idle, 0 due, has SRS   → "All caught up · train more"
+//    Idle, due > 0          → "Flashcards · N due"
+//    Idle, no SRS yet       → "Flashcards"
+//    Idle, has SRS, 0 due   → "Flashcards"
 //
-//  Click label → opens DecksModal (when implemented; for now a no-op stub).
-//  Click ▶ → startOrResumeSession('mixed', { autoExpand: true })
-//  Click ◾ → stopSession() (during active session only).
+//  The icon (stacked-cards SVG) lives in the SSR markup as a sibling span
+//  and is never touched by this script. Only `.flashcards-header-text` is
+//  mutated.
+//
+//  Click label → opens DecksModal.
 
-import { getDueCards, loadSRSCards } from "./srs"
-import { getSession, isInSession, startOrResumeSession, stopSession } from "./trainingSession"
+import { getDueCards } from "./srs"
+import { getSession } from "./trainingSession"
 
-// Tag the runtime so we don't double-bind across SPA navs (the element
-// persists, so binding inside the nav handler would stack listeners every
-// time the user navigates).
 interface Boundable extends HTMLElement {
   __flashcardsHeaderBound?: boolean
 }
@@ -27,76 +26,50 @@ document.addEventListener("nav", () => {
   if (!container) return
 
   const labelBtn = document.getElementById("flashcards-header-label") as HTMLButtonElement | null
-  const playBtn = document.getElementById("flashcards-header-play") as HTMLButtonElement | null
-  if (!labelBtn || !playBtn) return
+  if (!labelBtn) return
+  const textEl = labelBtn.querySelector(".flashcards-header-text") as HTMLElement | null
+  const badgeEl = labelBtn.querySelector(".flashcards-header-badge") as HTMLElement | null
 
-  // ── Label + button state ─────────────────────────────────────────────
   const renderState = () => {
     const session = getSession()
     const due = getDueCards()
-    const allCards = loadSRSCards()
 
-    let labelText: string
-    let playIsStop = false
+    // Label stays stable regardless of active session — session progress is
+    // surfaced via SessionChevrons, not by hijacking this label.
+    const labelText = due.length > 0 ? `Flashcards · ${due.length} due` : "Flashcards"
 
-    if (session && session.pages.length > 0) {
-      // Active session
-      const current = session.currentIndex + 1
-      const total = session.pages.length
-      labelText = `Session  ${current}/${total}`
-      playIsStop = true
-    } else if (due.length > 0) {
-      labelText = `Flashcards (${due.length} due)`
-    } else if (allCards.length === 0) {
-      labelText = "Start training"
+    if (textEl) {
+      textEl.textContent = labelText
     } else {
-      labelText = "All caught up · train more"
+      // Defensive fallback if the SSR span structure ever regresses.
+      labelBtn.textContent = labelText
     }
-
-    labelBtn.textContent = labelText
-    container.classList.toggle("flashcards-header--session", playIsStop)
-    playBtn.setAttribute(
-      "aria-label",
-      playIsStop ? "Stop training session" : "Start training session",
+    // Badge: only visible on mobile (icon-only mode) via CSS `:not(:empty)`.
+    // Setting empty string when N=0 hides it without needing a JS class toggle.
+    if (badgeEl) {
+      badgeEl.textContent = due.length > 0 ? String(due.length) : ""
+    }
+    // Keep the session class hook around in case other styles depend on it,
+    // but it now tracks the actual session state without affecting label text.
+    container.classList.toggle(
+      "flashcards-header--session",
+      !!(session && session.pages.length > 0),
     )
-    playBtn.setAttribute("title", playIsStop ? "Stop session" : "Start session")
   }
 
   renderState()
 
-  // ── Wire handlers once (skip on subsequent navs) ─────────────────────
   if (container.__flashcardsHeaderBound) return
   container.__flashcardsHeaderBound = true
 
   const onLabelClick = () => {
-    // DecksModal not yet built — stub. Will be wired in task 5.
     const open = (window as any).__openDecksModal as (() => void) | undefined
     if (open) open()
   }
-
-  const onPlayClick = () => {
-    if (isInSession()) {
-      // ◾ stop session, snackbar with Undo
-      stopSession()
-      renderState()
-    } else {
-      // ▶ start (or resume if a session exists but is paused)
-      startOrResumeSession("mixed", { autoExpand: true })
-      // Mark body so SessionChevrons + dim styles activate
-      document.body.setAttribute("data-training-active", "true")
-      // renderState will run on the next nav event the SPA fires
-    }
-  }
-
   labelBtn.addEventListener("click", onLabelClick)
-  playBtn.addEventListener("click", onPlayClick)
 
-  // ── Storage changes (e.g., session created in another tab) ───────────
   const onStorage = (e: StorageEvent) => {
     if (e.key === null || e.key === "bjj-srs-cards") renderState()
   }
   window.addEventListener("storage", onStorage)
-
-  // No cleanup registered here — the element persists across navs, listeners
-  // outlive a single page. The bound flag prevents re-binding.
 })

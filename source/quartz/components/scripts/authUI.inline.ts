@@ -10,7 +10,6 @@ import {
   isAuthenticated,
   onAuthChange,
   syncOnLoad,
-  getLastSyncTime,
 } from "./supabase"
 
 // ── State ──────────────────────────────────────────────────────────────────────
@@ -26,15 +25,6 @@ function showSnackbar(opts: { message: string; type: "success" | "failure" | "in
   ;(window as any).showSnackbar?.(opts)
 }
 
-function formatSyncTime(iso: string): string {
-  if (!iso) return "Never"
-  const diff = Date.now() - new Date(iso).getTime()
-  if (diff < 60_000) return "Just now"
-  if (diff < 3_600_000) return `${Math.floor(diff / 60_000)}m ago`
-  if (diff < 86_400_000) return `${Math.floor(diff / 3_600_000)}h ago`
-  return new Date(iso).toLocaleDateString()
-}
-
 function escapeHtml(str: string): string {
   const div = document.createElement("div")
   div.textContent = str
@@ -46,11 +36,6 @@ function getInitial(email?: string, name?: string): string {
   return src.charAt(0).toUpperCase()
 }
 
-function getProviderLabel(provider: string): string {
-  const labels: Record<string, string> = { google: "Google", email: "Email", github: "GitHub" }
-  return labels[provider] || provider.charAt(0).toUpperCase() + provider.slice(1)
-}
-
 function isSafeImageUrl(url: string): boolean {
   try {
     const parsed = new URL(url)
@@ -60,176 +45,126 @@ function isSafeImageUrl(url: string): boolean {
   }
 }
 
-function initialAvatarHtml(email: string, name: string): string {
-  return `<div class="auth-profile-avatar auth-profile-avatar--initial">${escapeHtml(getInitial(email, name))}</div>`
+// ── Top-bar Auth Slot (36×36 round, top-right of the top stripe) ───────────
+
+let _topbarMenuOpen = false
+let _topbarMenuCleanup: (() => void) | null = null
+
+const PERSON_SVG = `<svg class="topbar-auth-silhouette" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>`
+
+function closeTopbarMenu() {
+  const menu = document.getElementById("topbar-auth-menu")
+  const trigger = document.getElementById("topbar-auth-trigger")
+  _topbarMenuOpen = false
+  menu?.setAttribute("hidden", "")
+  trigger?.setAttribute("aria-expanded", "false")
 }
 
-// ── Auth Prompt / Profile Strip (above Today's Session) ─────────────────────
+function openTopbarMenu() {
+  const menu = document.getElementById("topbar-auth-menu")
+  const trigger = document.getElementById("topbar-auth-trigger")
+  _topbarMenuOpen = true
+  menu?.removeAttribute("hidden")
+  trigger?.setAttribute("aria-expanded", "true")
+}
 
-async function renderAuthPrompt() {
-  const container = document.getElementById("training-auth-prompt")
+function renderTopbarSignedOut(container: HTMLElement) {
+  container.innerHTML = `
+    <button type="button" class="topbar-auth-btn" id="topbar-auth-signin" aria-label="Sign in">
+      ${PERSON_SVG}
+      <span class="topbar-auth-dot" aria-hidden="true"></span>
+    </button>
+  `
+  document
+    .getElementById("topbar-auth-signin")
+    ?.addEventListener("click", () => openModal("signin"))
+}
+
+async function renderTopBarAuth() {
+  const container = document.getElementById("topbar-auth")
   if (!container) return
 
+  _topbarMenuCleanup?.()
+  _topbarMenuCleanup = null
+  _topbarMenuOpen = false
+
   if (!isAuthenticated()) {
-    container.style.display = ""
-    container.innerHTML = `
-      <div class="auth-prompt">
-        <div class="auth-prompt-text">
-          <strong>Save your progress across devices</strong>
-          <span>Sign up to keep your training data safe.</span>
-        </div>
-        <div class="auth-prompt-actions">
-          <button class="auth-prompt-btn auth-prompt-signup" id="auth-prompt-signup">Sign up</button>
-          <button class="auth-prompt-btn auth-prompt-signin" id="auth-prompt-signin">Sign in</button>
-        </div>
-      </div>
-    `
-    document
-      .getElementById("auth-prompt-signup")
-      ?.addEventListener("click", () => openModal("signup"))
-    document
-      .getElementById("auth-prompt-signin")
-      ?.addEventListener("click", () => openModal("signin"))
+    renderTopbarSignedOut(container)
     return
   }
 
-  // Authenticated — show profile strip
   const version = ++_renderVersion
-  container.style.display = ""
-  container.innerHTML = `<div class="auth-profile auth-profile--loading" role="status" aria-live="polite"><span class="auth-profile-loading">Loading...</span></div>`
-
   const { user } = await getSession()
-
-  // Discard if a newer render started while we were waiting
   if (version !== _renderVersion) return
-
   if (!user) {
-    // Session read failed — still show sign-out so user can recover
-    container.innerHTML = `
-      <div class="auth-profile">
-        <div class="auth-profile-info">
-          <span class="auth-profile-error">Could not load profile</span>
-        </div>
-        <button class="auth-profile-signout" id="auth-profile-signout">Sign out</button>
-      </div>
-    `
-    attachSignOutHandler()
+    renderTopbarSignedOut(container)
     return
   }
 
-  renderProfileStrip(container, user)
-}
-
-function renderProfileStrip(
-  container: HTMLElement,
-  user: { email?: string; user_metadata?: Record<string, any>; app_metadata?: Record<string, any> },
-) {
   const name = user.user_metadata?.full_name || user.user_metadata?.name || ""
   const email = user.email || ""
   const rawAvatarUrl = user.user_metadata?.avatar_url || ""
   const avatarUrl = rawAvatarUrl && isSafeImageUrl(rawAvatarUrl) ? rawAvatarUrl : ""
-  const providers: string[] = user.app_metadata?.providers || []
-  const syncTime = formatSyncTime(getLastSyncTime())
-
   const altText = escapeHtml(name || email || "User avatar")
   const avatarHtml = avatarUrl
-    ? `<img class="auth-profile-avatar" src="${escapeHtml(avatarUrl)}" alt="${altText}" referrerpolicy="no-referrer" id="auth-profile-avatar-img" />`
-    : initialAvatarHtml(email, name)
-
-  const displayName = name ? escapeHtml(name) : ""
-  const displayEmail = escapeHtml(email)
-
-  const providerBadges = providers
-    .map(
-      (p: string) =>
-        `<span class="auth-profile-provider">${escapeHtml(getProviderLabel(p))}</span>`,
-    )
-    .join("")
+    ? `<img class="topbar-auth-avatar" src="${escapeHtml(avatarUrl)}" alt="${altText}" referrerpolicy="no-referrer" id="topbar-auth-avatar-img" />`
+    : `<div class="topbar-auth-avatar topbar-auth-avatar--initial">${escapeHtml(getInitial(email, name))}</div>`
 
   container.innerHTML = `
-    <div class="auth-profile">
+    <button type="button" class="topbar-auth-btn" id="topbar-auth-trigger" aria-haspopup="menu" aria-expanded="false" aria-label="Account menu">
       ${avatarHtml}
-      <div class="auth-profile-info">
-        <div class="auth-profile-identity">
-          ${displayName ? `<span class="auth-profile-name">${displayName}</span>` : ""}
-          <span class="auth-profile-email">${displayEmail || "Signed in"}</span>
-        </div>
-        <div class="auth-profile-meta">
-          ${providerBadges ? `<span class="auth-profile-providers">${providerBadges}</span>` : ""}
-          <span class="auth-profile-sync">Synced: ${syncTime}</span>
-        </div>
-      </div>
-      <button class="auth-profile-signout" id="auth-profile-signout">Sign out</button>
+    </button>
+    <div class="topbar-auth-menu" id="topbar-auth-menu" role="menu" hidden>
+      <button role="menuitem" class="topbar-auth-menuitem" id="topbar-auth-signout">Sign out</button>
     </div>
   `
 
-  // Avatar onerror fallback — replace broken img with initial circle
-  const avatarImg = document.getElementById("auth-profile-avatar-img") as HTMLImageElement | null
+  const trigger = document.getElementById("topbar-auth-trigger")
+  const menu = document.getElementById("topbar-auth-menu")
+
+  trigger?.addEventListener("click", (e) => {
+    e.stopPropagation()
+    if (_topbarMenuOpen) closeTopbarMenu()
+    else openTopbarMenu()
+  })
+
+  const avatarImg = document.getElementById("topbar-auth-avatar-img") as HTMLImageElement | null
   if (avatarImg) {
     avatarImg.onerror = () => {
       const fallback = document.createElement("div")
-      fallback.className = "auth-profile-avatar auth-profile-avatar--initial"
+      fallback.className = "topbar-auth-avatar topbar-auth-avatar--initial"
       fallback.textContent = getInitial(email, name)
       avatarImg.replaceWith(fallback)
     }
   }
 
-  attachSignOutHandler()
-}
-
-function attachSignOutHandler() {
-  document.getElementById("auth-profile-signout")?.addEventListener("click", async () => {
+  document.getElementById("topbar-auth-signout")?.addEventListener("click", async () => {
+    closeTopbarMenu()
     const { error } = await signOut()
     if (error) {
       showSnackbar({ message: `Sign out failed: ${error}`, type: "failure" })
       return
     }
     showSnackbar({ message: "Signed out", type: "info" })
-    renderAuthPrompt()
-    renderAccountSection()
+    renderTopBarAuth()
   })
-}
 
-// ── Account Section (inside Settings) ──────────────────────────────────────────
-
-async function renderAccountSection() {
-  const container = document.getElementById("training-account-info")
-  if (!container) return
-
-  if (!isAuthenticated()) {
-    container.style.display = "none"
-    container.innerHTML = ""
-    return
+  const onDocClick = (e: MouseEvent) => {
+    if (!_topbarMenuOpen) return
+    const target = e.target as Node
+    if (menu?.contains(target) || trigger?.contains(target)) return
+    closeTopbarMenu()
   }
-
-  const { user } = await getSession()
-  if (!user) {
-    container.style.display = "none"
-    return
+  const onKey = (e: KeyboardEvent) => {
+    if (e.key === "Escape" && _topbarMenuOpen) closeTopbarMenu()
   }
-
-  const syncTime = formatSyncTime(getLastSyncTime())
-  container.style.display = ""
-  container.innerHTML = `
-    <div class="auth-account">
-      <div class="auth-account-info">
-        <span class="auth-account-email">${escapeHtml(user.email || "Signed in")}</span>
-        <span class="auth-account-sync">Last synced: ${syncTime}</span>
-      </div>
-      <button class="auth-account-signout" id="auth-signout-btn">Sign out</button>
-    </div>
-  `
-
-  document.getElementById("auth-signout-btn")?.addEventListener("click", async () => {
-    const { error } = await signOut()
-    if (error) {
-      showSnackbar({ message: `Sign out failed: ${error}`, type: "failure" })
-      return
-    }
-    showSnackbar({ message: "Signed out", type: "info" })
-    renderAuthPrompt()
-    renderAccountSection()
-  })
+  document.addEventListener("click", onDocClick)
+  document.addEventListener("keydown", onKey)
+  _topbarMenuCleanup = () => {
+    document.removeEventListener("click", onDocClick)
+    document.removeEventListener("keydown", onKey)
+  }
+  ;(window as any).addCleanup?.(_topbarMenuCleanup)
 }
 
 // ── Auth Modal ─────────────────────────────────────────────────────────────────
@@ -360,8 +295,7 @@ function renderModal() {
       if (user) {
         showSnackbar({ message: "Account created! Your progress is now saved.", type: "success" })
         closeModal()
-        renderAuthPrompt()
-        renderAccountSection()
+        renderTopBarAuth()
       } else {
         showSnackbar({ message: "Check your email to confirm your account", type: "info" })
         closeModal()
@@ -376,8 +310,7 @@ function renderModal() {
       if (user) {
         showSnackbar({ message: "Signed in! Your progress is synced.", type: "success" })
         closeModal()
-        renderAuthPrompt()
-        renderAccountSection()
+        renderTopBarAuth()
       }
     }
   })
@@ -413,26 +346,20 @@ function setLoading(loading: boolean) {
 // ── Init ───────────────────────────────────────────────────────────────────────
 
 document.addEventListener("nav", async () => {
-  // Only render on Training page
-  const slug = document.body.dataset.slug
-  if (slug?.toLowerCase() !== "training") return
-
-  // Check if Supabase is configured
   if (!window.__SUPABASE_URL) return
 
-  await Promise.all([renderAuthPrompt(), renderAccountSection()])
+  await renderTopBarAuth()
 
   // Sync on load for authenticated users
   if (isAuthenticated()) {
     await syncOnLoad()
-    // Re-render to update sync time (renderVersion handles stale cancellation)
-    await Promise.all([renderAuthPrompt(), renderAccountSection()])
+    await renderTopBarAuth()
   }
 })
 
 // Listen for auth state changes (e.g. Google OAuth redirect return)
 onAuthChange(async (event, _user) => {
-  if (event === "SIGNED_IN") {
-    await Promise.all([renderAuthPrompt(), renderAccountSection()])
+  if (event === "SIGNED_IN" || event === "SIGNED_OUT") {
+    await renderTopBarAuth()
   }
 })

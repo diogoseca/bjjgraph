@@ -22,7 +22,9 @@ import path from "path"
 import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide } from "d3-force"
 
 // === Build-time graph data injection ===
-// Eliminates all runtime fetches of the 3.5MB graph.json
+// Per-page slices are inlined here (page-graph-data, roll positions, content
+// stats). Large blobs (questionBank, graphAdjacency, contentIndex, graph.json)
+// go through static emitters and are fetched lazily at runtime.
 
 // Cached content stats (computed once at build time by counting .json files)
 let _contentStatsJson: string | null = null
@@ -46,102 +48,6 @@ function getContentStatsJson(): string {
     systems: countJsonFiles("Systems"),
   })
   return _contentStatsJson
-}
-
-// Cached training question bank + adjacency. Built once at first page render,
-// injected into every page so the FlashcardsHeader strip + DecksModal + chevron
-// nav + Flashcard runtime can read it anywhere the user is.
-let _questionBankJson: string | null = null
-let _graphAdjacencyJson: string | null = null
-
-function getTrainingDataJson(allFiles: QuartzPluginData[]): {
-  questionBankJson: string | null
-  graphAdjacencyJson: string | null
-} {
-  if (_questionBankJson !== null && _graphAdjacencyJson !== null) {
-    return { questionBankJson: _questionBankJson, graphAdjacencyJson: _graphAdjacencyJson }
-  }
-
-  const graph = loadGraphData()
-  if (!graph) return { questionBankJson: null, graphAdjacencyJson: null }
-
-  type BankSection = "transitions" | "submissions" | "positions" | "principles" | "systems"
-  const bank: Array<{
-    name: string
-    type: string
-    slug: string
-    flashcards: Array<{ question: string; answer: string }>
-  }> = []
-  const bankGraphKeys: Array<{ key: string; section: BankSection }> = []
-
-  // Build a lookup from technique name → file slug
-  const slugLookup: Record<string, string> = {}
-  for (const f of allFiles) {
-    const fSlug = f.slug ?? ""
-    const title = (f.frontmatter?.title as string) ?? ""
-    const name = title.split(" | ")[0].trim()
-    if (name) slugLookup[name.toLowerCase()] = fSlug
-  }
-
-  const addEntries = (
-    section: Record<string, any>,
-    type: string,
-    prefix: string,
-    sectionName: BankSection,
-  ) => {
-    for (const [key, data] of Object.entries(section || {})) {
-      // Skip family hubs — their aggregated flashcards already live on variants.
-      if (data.isFamily) continue
-      // Positions: only role entries (skip hub-level aggregations).
-      if (sectionName === "positions" && data.role === "hub") continue
-      const cards = data.flashcards || []
-      if (cards.length === 0) continue
-      const fileSlug = slugLookup[data.name?.toLowerCase()] || `${prefix}/${data.name || key}`
-      bank.push({ name: data.name || key, type, slug: fileSlug, flashcards: cards })
-      bankGraphKeys.push({ key, section: sectionName })
-    }
-  }
-
-  addEntries(graph.transitions, "transition", "Transitions", "transitions")
-  addEntries(graph.submissions, "submission", "Submissions", "submissions")
-  addEntries(graph.positions, "position", "Positions", "positions")
-  addEntries(graph.principles, "principle", "Principles", "principles")
-  addEntries(graph.systems, "system", "Systems", "systems")
-
-  _questionBankJson = JSON.stringify(bank)
-
-  // Adjacency: positions = positionHub → [bank indices]; outcomes = bank[idx] → [position hubs]
-  const positions: Record<string, number[]> = {}
-  const outcomes: string[][] = []
-  for (let i = 0; i < bank.length; i++) {
-    const { key, section } = bankGraphKeys[i]
-    const data = graph[section]?.[key]
-    if (!data) {
-      outcomes.push([])
-      continue
-    }
-    const startPositions: string[] = []
-    if (data.startingPosition) startPositions.push(data.startingPosition)
-    if (data.fromPositions) {
-      for (const fp of data.fromPositions) {
-        if (!startPositions.includes(fp)) startPositions.push(fp)
-      }
-    }
-    for (const pos of startPositions) {
-      if (!positions[pos]) positions[pos] = []
-      if (!positions[pos].includes(i)) positions[pos].push(i)
-    }
-    const outPos: string[] = []
-    for (const o of data.outcomes || []) {
-      if (!o.to || o.to === "game-over") continue
-      const hub = o.to.includes("/") ? o.to.split("/")[0] : o.to
-      if (!outPos.includes(hub)) outPos.push(hub)
-    }
-    outcomes.push(outPos)
-  }
-  _graphAdjacencyJson = JSON.stringify({ positions, outcomes })
-
-  return { questionBankJson: _questionBankJson, graphAdjacencyJson: _graphAdjacencyJson }
 }
 
 // Cached roll positions JSON (computed once across all pages at build time)
@@ -634,6 +540,10 @@ export function pageResources(
 ): StaticResources {
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexGzPath = joinSegments(baseDir, "static/contentIndex.json.gz")
+  const questionBankPath = joinSegments(baseDir, "static/questionBank.json")
+  const questionBankGzPath = joinSegments(baseDir, "static/questionBank.json.gz")
+  const graphAdjacencyPath = joinSegments(baseDir, "static/graphAdjacency.json")
+  const graphAdjacencyGzPath = joinSegments(baseDir, "static/graphAdjacency.json.gz")
 
   // Lazy content index: only fetched when search opens, global graph opens, or 404 page loads
   const contentIndexScript = `
@@ -660,6 +570,37 @@ export function pageResources(
       return __contentIndexPromise;
     }`
 
+  // Lazy training data: question bank + graph adjacency. Only fetched when the
+  // user starts a training session or opens DecksModal.
+  const trainingDataScript = `
+    let __questionBankPromise = null;
+    let __graphAdjacencyPromise = null;
+    async function __fetchLazyJson(gzPath, plainPath) {
+      try {
+        const gzResponse = await fetch(gzPath);
+        if (gzResponse.ok) {
+          const compressed = await gzResponse.arrayBuffer();
+          const ds = new DecompressionStream('gzip');
+          const decompressedStream = new Response(compressed).body.pipeThrough(ds);
+          const decompressed = await new Response(decompressedStream).text();
+          return JSON.parse(decompressed);
+        }
+      } catch (e) {
+        console.warn('Failed to load compressed lazy JSON, falling back:', e);
+      }
+      return fetch(plainPath).then(r => r.json());
+    }
+    window.loadQuestionBank = function() {
+      if (__questionBankPromise) return __questionBankPromise;
+      __questionBankPromise = __fetchLazyJson("${questionBankGzPath}", "${questionBankPath}");
+      return __questionBankPromise;
+    }
+    window.loadGraphAdjacency = function() {
+      if (__graphAdjacencyPromise) return __graphAdjacencyPromise;
+      __graphAdjacencyPromise = __fetchLazyJson("${graphAdjacencyGzPath}", "${graphAdjacencyPath}");
+      return __graphAdjacencyPromise;
+    }`
+
   return {
     css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
     js: [
@@ -673,6 +614,12 @@ export function pageResources(
         contentType: "inline",
         spaPreserve: true,
         script: contentIndexScript,
+      },
+      {
+        loadTime: "beforeDOMReady",
+        contentType: "inline",
+        spaPreserve: true,
+        script: trainingDataScript,
       },
       ...staticResources.js,
       {
@@ -701,16 +648,16 @@ export function renderPage(
     script: `window.__rollPositions=${rollData}`,
   })
 
-  // Inject content stats on homepage (build-time counts of .json files per category)
-  if (slug === ("index" as FullSlug)) {
-    const stats = getContentStatsJson()
-    pageResources.js.push({
-      loadTime: "beforeDOMReady",
-      contentType: "inline",
-      spaPreserve: true,
-      script: `window.__contentStats=${stats};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-stat]").forEach(el=>{const k=el.getAttribute("data-stat");if(k&&s[k]!=null)el.textContent=s[k]})})`,
-    })
-  }
+  // Inject content stats on every page (build-time counts of .json files per
+  // category). Populates `[data-folder-count]` spans next to top-level Explorer
+  // folder titles (Positions / Transitions / Submissions / Principles / Systems).
+  const stats = getContentStatsJson()
+  pageResources.js.push({
+    loadTime: "beforeDOMReady",
+    contentType: "inline",
+    spaPreserve: true,
+    script: `window.__contentStats=${stats};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-folder-count]").forEach(el=>{const k=el.getAttribute("data-folder-count");if(k&&s[k]!=null)el.textContent=String(s[k])})})`,
+  })
 
   // Only deep-clone the tree if transclusions exist (saves ~1-15ms per page)
   let hasTransclusions = false
@@ -886,11 +833,6 @@ export function renderPage(
   // Build-time pre-computed graph layout (avoids D3 simulation at runtime)
   const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
 
-  // Build-time question bank + graph adjacency — injected on every page so
-  // the FlashcardsHeader strip, DecksModal, and chevron carousel can read them
-  // anywhere. Built once at first page render and cached at module scope.
-  const { questionBankJson, graphAdjacencyJson } = getTrainingDataJson(componentData.allFiles)
-
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const doc = (
     <html lang={lang}>
@@ -908,20 +850,6 @@ export function renderPage(
             type="application/json"
             id="graph-positions"
             dangerouslySetInnerHTML={{ __html: graphPositionsJson }}
-          />
-        )}
-        {questionBankJson && (
-          <script
-            type="application/json"
-            id="training-question-bank"
-            dangerouslySetInnerHTML={{ __html: questionBankJson }}
-          />
-        )}
-        {graphAdjacencyJson && (
-          <script
-            type="application/json"
-            id="training-graph-adjacency"
-            dangerouslySetInnerHTML={{ __html: graphAdjacencyJson }}
           />
         )}
         <div id="background-graph" data-persist></div>
@@ -994,26 +922,139 @@ export function renderPage(
             <line x1="9" y1="17" x2="13" y2="17"></line>
           </svg>
         </button>
-        <div id="sidebar-overlay" data-persist>
-          <button id="drawer-close" aria-label="Close explorer">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
+        {/* Search trigger + fullscreen modal — wrapped in .search so the
+            existing search.scss styles apply (modal positioning, hidden state).
+            Our custom.scss #search-button rule overrides the button's position
+            to make it a top-level floating button at top-left. */}
+        <div class="search" data-persist>
+          <button
+            class="search-button"
+            id="search-button"
+            aria-label={i18n(cfg.locale).components.search.title}
+          >
+            <p>{i18n(cfg.locale).components.search.title}</p>
+            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+              <title>Search</title>
+              <g class="search-path" fill="none">
+                <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                <circle cx="8" cy="8" r="7" />
+              </g>
             </svg>
           </button>
-          {LeftComponent}
-          <div class="sidebar-resizer" />
+          <div id="search-container">
+            <div id="search-space">
+              <input
+                autocomplete="off"
+                id="search-bar"
+                name="search"
+                type="text"
+                aria-label={i18n(cfg.locale).components.search.searchBarPlaceholder}
+                placeholder={i18n(cfg.locale).components.search.searchBarPlaceholder}
+              />
+              <div id="search-layout" data-preview="true"></div>
+            </div>
+          </div>
         </div>
+        <div id="sidebar-overlay" data-persist>
+          {LeftComponent}
+        </div>
+        {/* Top-row buttons hoisted out of `.page` so they don't slide with the
+            content card's transform when entering graph mode. */}
+        <div id="flashcards-header" class="flashcards-header" data-persist>
+          <button
+            type="button"
+            class="flashcards-header-label"
+            id="flashcards-header-label"
+            aria-label="Open flashcard decks"
+          >
+            <span class="flashcards-header-icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                <polyline points="2 17 12 22 22 17" />
+                <polyline points="2 12 12 17 22 12" />
+              </svg>
+            </span>
+            <span class="flashcards-header-text">Flashcards</span>
+            <span class="flashcards-header-badge" aria-hidden="true"></span>
+          </button>
+        </div>
+        <div id="topbar-auth" data-persist aria-label="Account"></div>
+        <button
+          id="roll-session-btn"
+          data-persist
+          type="button"
+          aria-label="Start a roll — simulate a journey through positions"
+          title="Roll — start a session"
+        >
+          {/* Outline play triangle */}
+          <svg
+            class="roll-session-icon-play"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <polygon points="6 4 20 12 6 20"></polygon>
+          </svg>
+          {/* Outline stop square (active session) */}
+          <svg
+            class="roll-session-icon-stop"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <rect x="6" y="6" width="12" height="12" rx="1"></rect>
+          </svg>
+        </button>
+        {slug === ("index" as FullSlug) && (
+          <button
+            id="home-roll-fab"
+            class="roll-trigger"
+            data-persist
+            aria-label="Roll — find a random position"
+          >
+            <img src="/static/dice-icon.svg" alt="" class="home-roll-fab-icon" />
+            <span class="home-roll-fab-label">Roll a position</span>
+          </button>
+        )}
+        <button id="graph-close-btn" data-persist aria-label="Close graph view">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             <div class="center">

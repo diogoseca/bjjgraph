@@ -17,47 +17,6 @@ html {
 }
 
 // ============================================================================
-// Sidebar Resizer (VS Code-style draggable divider)
-// ============================================================================
-
-#quartz-body {
-  position: relative;
-}
-
-.sidebar-resizer {
-  position: absolute;
-  left: var(--sidebar-width, 320px);
-  top: 0;
-  bottom: 0;
-  width: 6px;
-  transform: translateX(-50%);
-  cursor: col-resize;
-  z-index: 10;
-  background: transparent;
-  transition: background 0.15s;
-
-  &:hover,
-  &.dragging {
-    background: var(--secondary);
-    opacity: 0.5;
-  }
-
-  &.dragging {
-    opacity: 0.7;
-  }
-
-  // Hidden on mobile (sidebar is collapsed/repositioned)
-  @media (max-width: 800px) {
-    display: none;
-  }
-}
-
-// Hide resizer on homepage (sidebar is hidden)
-body[data-slug="index"] .sidebar-resizer {
-  display: none;
-}
-
-// ============================================================================
 // Landing Page (Homepage)
 // ============================================================================
 
@@ -66,15 +25,131 @@ body[data-slug="index"] .content-meta {
   display: none;
 }
 
-body[data-slug="index"] .sidebar {
-  position: absolute !important;
-  width: 0 !important;
-  height: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: 0 !important;
-  overflow: hidden !important;
-  pointer-events: none;
+// Note: previously this section forcibly hid `.sidebar` on the homepage with
+// width:0/height:0/etc. That predated the tree-drawer pattern. Now the drawer
+// is closed by default everywhere (including the homepage) via JS state; opening
+// the tree-toggle button reveals the explorer over the page just like elsewhere.
+
+// Cinematic home intro (5s). The existing #graph-overlay is repurposed as the
+// intro backdrop: starts opaque, holds while text reads, then fades out together
+// with the title/tagline lines to reveal the live #background-graph behind.
+// A bottom-center Roll FAB fades in at the end as the primary CTA.
+body[data-slug="index"] {
+  // Drawer-handle UI stays hidden — the graph is the hero, not the panel.
+  #panel-toggle,
+  #fit-all-btn {
+    display: none !important;
+  }
+
+  // The page card normally paints a semi-transparent dark scrim
+  // (rgba(22,22,24,0.9) at z-index 2) over the live #background-graph.
+  // Home has no article content, so drop the scrim AND make the .page
+  // pointer-transparent — wheel/drag pass through to the graph canvas
+  // behind, enabling pan/zoom. Re-enable pointer events on any
+  // descendant <a>/<button> defensively.
+  #quartz-root {
+    background: transparent;
+    pointer-events: none;
+
+    a,
+    button {
+      pointer-events: auto;
+    }
+  }
+
+  #graph-overlay {
+    display: block !important;
+    opacity: 1;
+    animation: home-overlay-fade 5s ease-out forwards;
+    pointer-events: none;
+  }
+
+  .homepage-title {
+    opacity: 0;
+    animation:
+      home-text-in 0.3s ease-out 0.1s forwards,
+      home-text-out 2s ease-in 3s forwards;
+  }
+
+  .tagline-line {
+    display: block;
+    opacity: 0;
+  }
+
+  .tagline-line-1 {
+    animation:
+      home-text-in 0.6s ease-out 0.7s forwards,
+      home-text-out 2s ease-in 3s forwards;
+  }
+
+  .tagline-line-2 {
+    animation:
+      home-text-in 0.6s ease-out 1.6s forwards,
+      home-text-out 2s ease-in 3s forwards;
+  }
+
+  #home-roll-fab {
+    opacity: 0;
+    animation: home-fab-in 1.5s ease-out 3.5s forwards;
+  }
+}
+
+@keyframes home-overlay-fade {
+  0% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  } // hold until text-out kicks in (~3s)
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes home-text-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes home-text-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes home-fab-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body[data-slug="index"] {
+    .homepage-title,
+    .tagline-line,
+    #home-roll-fab {
+      opacity: 1;
+      animation: none;
+    }
+    #graph-overlay {
+      opacity: 0;
+      animation: none;
+    }
+  }
 }
 
 // Re-enable pointer events on search container (uses position:fixed when open)
@@ -82,16 +157,25 @@ body[data-slug="index"] #search-container {
   pointer-events: auto;
 }
 
-// Collapse grid to single centered column
+// Collapse grid to single centered column with exactly 2 rows (matches areas).
+// Without grid-template-rows, the base "auto 1fr auto" leaks in and pushes
+// the document past 100vh, causing scroll-bounce.
 body[data-slug="index"] #quartz-body {
   grid-template-columns: 1fr !important;
+  grid-template-rows: auto auto !important;
   grid-template-areas:
     "grid-center"
     "grid-footer" !important;
+  row-gap: 0 !important; // base grid has a 5px row-gap that bleeds through even with footer hidden
   max-width: 400px;
   margin: 0 auto;
   padding: 0 1rem;
   box-sizing: border-box;
+}
+
+// Belt-and-suspenders: home is a single-screen experience, no scroll-bounce.
+body[data-slug="index"] {
+  overflow: hidden;
 }
 
 // Vertically center above-fold content
@@ -125,11 +209,18 @@ body[data-slug="index"] hr {
   display: none;
 }
 
-// Footer: centered block, left-aligned content inside
+// Hide the BETA / GitHub-CTA / © footer on home — the home is a single-screen
+// experience. Footer stays visible on all other pages.
 body[data-slug="index"] footer {
-  width: fit-content;
-  margin: 0 auto;
-  text-align: left;
+  display: none;
+}
+
+// Right sidebar isn't in the home's grid-template-areas ("grid-center"/"grid-footer"),
+// so it gets placed in an implicit grid row that pushes the document past 100vh.
+// Home has no TableOfContents anyway — hide the column entirely. !important
+// to override `.page > #quartz-body .sidebar { display: flex }` from base layout.
+body[data-slug="index"] .right.sidebar {
+  display: none !important;
 }
 
 // Hero content
@@ -138,51 +229,6 @@ body[data-slug="index"] footer {
   color: var(--dark);
   opacity: 0.7;
   margin: 0 0 2.5rem 0;
-}
-
-// Search + Roll bar (Google-style)
-.hero-actions {
-  margin: 0 0 1.25rem 0;
-  display: flex;
-  justify-content: center;
-}
-
-// Stats grid (linked category counts)
-.stats-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  column-gap: 0.75rem;
-  row-gap: 0.25rem;
-}
-
-.stats-grid-secondary {
-  margin-top: 0.5rem;
-}
-
-.stat-link {
-  text-decoration: none;
-  color: var(--gray);
-  font-size: 0.8rem;
-  letter-spacing: 0.03em;
-  padding: 6px 14px;
-  border-radius: 16px;
-  background: transparent;
-  transition: color 0.15s;
-
-  @media (max-width: 400px) {
-    font-size: 0.72rem;
-    padding: 5px 8px;
-  }
-
-  &:hover {
-    color: var(--secondary);
-    background: transparent;
-  }
-}
-
-.stat-number {
-  font-weight: 600;
 }
 
 // Training summary — pinned to top of homepage
@@ -218,73 +264,41 @@ body[data-slug="index"] #training-summary-home {
   opacity: 0.4;
 }
 
-.search-roll-bar {
-  display: flex;
-  max-width: 500px;
-  width: 100%;
-  border: 1px solid var(--lightgray);
-  border-radius: 24px;
-  overflow: hidden;
-  background: var(--light);
-
-  &:hover,
-  &:focus-within {
-    border-color: var(--secondary);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-  }
-}
-
-.search-trigger {
-  flex: 1;
-  min-width: 0; // allow flex item to shrink below content size
-  display: flex;
+// Bottom-center Roll FAB on home — primary CTA after the intro animation
+#home-roll-fab {
+  position: fixed;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+  display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem 1rem;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  text-align: left;
-  color: var(--gray);
-  font-size: 0.95rem;
-
-  .search-icon {
-    flex-shrink: 0;
-    opacity: 0.7;
-  }
-
-  .search-placeholder {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  &:hover {
-    color: var(--darkgray);
-  }
-}
-
-.roll-trigger {
-  flex-shrink: 0; // never cut off the Roll button
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.25rem;
-  border: none;
-  border-left: 1px solid var(--lightgray);
+  gap: 0.65rem;
+  padding: 0.85rem 1.65rem;
+  border: 1px solid var(--secondary);
+  border-radius: 999px;
   background: var(--light);
   color: var(--secondary);
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1rem;
   cursor: pointer;
-  transition: background 0.15s;
-
-  .roll-icon {
-    width: 28px;
-    height: 28px;
-  }
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background 0.15s,
+    color 0.15s;
 
   &:hover {
-    background: var(--highlight);
+    background: var(--secondary);
+    color: var(--light);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+    transform: translateX(-50%) translateY(-2px);
+  }
+
+  .home-roll-fab-icon {
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -2667,70 +2681,10 @@ body[data-slug="training"] .explorer-faded {
 }
 
 // ============================================================================
-// Auth UI (Sign-in modal + Training Dashboard prompt/account)
+// Auth UI (Sign-in modal — sidebar widget styles are below the modal block)
 // ============================================================================
 
-// Prompt banner (above Today's Session)
-.auth-prompt {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem 1.25rem;
-  margin-bottom: 1rem;
-  background: var(--highlight);
-  border: 1.5px solid var(--lightgray);
-  border-radius: 10px;
-}
-
-.auth-prompt-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-
-  strong {
-    font-size: 0.95rem;
-    color: var(--dark);
-  }
-
-  span {
-    font-size: 0.82rem;
-    color: var(--darkgray);
-  }
-}
-
-.auth-prompt-actions {
-  display: flex;
-  gap: 0.5rem;
-  flex-shrink: 0;
-}
-
-.auth-prompt-btn {
-  padding: 0.4rem 1rem;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-  transition: opacity 0.15s ease;
-
-  &:hover {
-    opacity: 0.85;
-  }
-}
-
-.auth-prompt-signup {
-  background: var(--secondary);
-  color: var(--light);
-}
-
-.auth-prompt-signin {
-  background: transparent;
-  color: var(--secondary);
-  border: 1.5px solid var(--secondary);
-}
-
-// Save prompt (inline CTA for unauthenticated users)
+// Save prompt (inline CTA for unauthenticated users — used by victoryDisplay + flashcard)
 .save-prompt {
   display: flex;
   align-items: center;
@@ -2759,170 +2713,6 @@ body[data-slug="training"] .explorer-faded {
 
   &:hover {
     opacity: 0.85;
-  }
-}
-
-// Profile strip (authenticated state, replaces auth prompt)
-.auth-profile {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem 1.25rem;
-  margin-bottom: 1rem;
-  background: var(--highlight);
-  border: 1.5px solid var(--lightgray);
-  border-radius: 10px;
-}
-
-.auth-profile--loading {
-  justify-content: center;
-}
-
-.auth-profile-loading {
-  font-size: 0.82rem;
-  color: var(--gray);
-}
-
-.auth-profile-avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  object-fit: cover;
-}
-
-.auth-profile-avatar--initial {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--secondary);
-  color: var(--light);
-  font-size: 0.95rem;
-  font-weight: 700;
-}
-
-.auth-profile-info {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-}
-
-.auth-profile-identity {
-  display: flex;
-  align-items: baseline;
-  gap: 0.4rem;
-  min-width: 0;
-}
-
-.auth-profile-name {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--dark);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.auth-profile-email {
-  font-size: 0.8rem;
-  color: var(--darkgray);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.auth-profile-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.auth-profile-providers {
-  display: flex;
-  gap: 0.3rem;
-}
-
-.auth-profile-provider {
-  font-size: 0.68rem;
-  font-weight: 600;
-  padding: 0.1rem 0.4rem;
-  border-radius: 4px;
-  background: var(--lightgray);
-  color: var(--darkgray);
-}
-
-.auth-profile-sync {
-  font-size: 0.72rem;
-  color: var(--gray);
-}
-
-.auth-profile-signout {
-  padding: 0.3rem 0.75rem;
-  border: 1.5px solid var(--lightgray);
-  border-radius: 6px;
-  background: transparent;
-  color: var(--darkgray);
-  font-size: 0.8rem;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: border-color 0.15s ease;
-
-  &:hover {
-    border-color: var(--gray);
-  }
-
-  &:focus-visible {
-    outline: 2px solid var(--secondary);
-    outline-offset: 2px;
-  }
-}
-
-.auth-profile-error {
-  font-size: 0.78rem;
-  color: var(--gray);
-}
-
-// Account section (inside Settings)
-.auth-account {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.75rem 0;
-  margin-top: 0.5rem;
-  border-top: 1px solid var(--lightgray);
-}
-
-.auth-account-info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-}
-
-.auth-account-email {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--dark);
-}
-
-.auth-account-sync {
-  font-size: 0.75rem;
-  color: var(--gray);
-}
-
-.auth-account-signout {
-  padding: 0.3rem 0.75rem;
-  border: 1.5px solid var(--lightgray);
-  border-radius: 6px;
-  background: transparent;
-  color: var(--darkgray);
-  font-size: 0.8rem;
-  cursor: pointer;
-  transition: border-color 0.15s ease;
-
-  &:hover {
-    border-color: var(--gray);
   }
 }
 
@@ -3093,27 +2883,24 @@ body[data-slug="training"] .explorer-faded {
 
 // Responsive
 @media (max-width: 800px) {
-  .auth-prompt {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .auth-profile {
-    flex-wrap: wrap;
-  }
-
-  .auth-profile-info {
-    flex: 1 1 0;
-  }
-
-  .auth-profile-signout {
-    margin-left: auto;
-  }
-
   .auth-panel {
     max-width: 100%;
     width: 95%;
     padding: 1.5rem;
+  }
+}
+
+// ============================================================================
+// Sidebar Auth Widget (pinned bottom of left sidebar)
+// ============================================================================
+
+.left.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  & > .explorer {
+    flex: 1 1 auto;
+    min-height: 0;
   }
 }
 
@@ -3139,7 +2926,9 @@ body[data-slug="training"] .explorer-faded {
 // Background Graph — full-viewport graph behind content
 // ============================================================================
 
-// Dark blur overlay between graph and content (dark-mode only, hardcoded)
+// Dark blur overlay between graph and content (dark-mode only, hardcoded).
+// Opacity transition is injected per-direction by contentPanel.inline.ts so
+// the overlay can lead the card fade-out and lag its fade-in.
 #graph-overlay {
   position: fixed;
   top: 0;
@@ -3152,10 +2941,12 @@ body[data-slug="training"] .explorer-faded {
   -webkit-backdrop-filter: blur(3px);
   pointer-events: none;
   will-change: opacity;
-  transition: opacity 0.3s ease;
 }
 
-// Content card floats above graph — 90% opaque drawer with rounded top bevel
+// Content card floats above graph — 90% opaque drawer with rounded top bevel.
+// Transform transition is injected per-direction by contentPanel.inline.ts:
+// 450ms cubic-bezier(0.34, 1.56, 0.64, 1) forward (drawer thunks into dock),
+// 380ms cubic-bezier(0.4, 0, 0.2, 1) reverse (snappy return, no overshoot).
 .page {
   background: color-mix(in srgb, var(--light) 90%, transparent);
   border-radius: 16px 16px 0 0;
@@ -3163,16 +2954,47 @@ body[data-slug="training"] .explorer-faded {
   position: relative;
   z-index: 2;
   will-change: transform;
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// When wrapped in document.startViewTransition() (graph-node clicks via
+// crossfadeNavigate), the browser auto-interpolates the drawer's translateY
+// AND cross-fades its content from old → new in one motion. Skipped during
+// carousel slides (data-spa-transition set) so the existing left/right slide
+// keyframes on ::view-transition-*(root) still apply for training sessions.
+html:not([data-spa-transition]) .page {
+  view-transition-name: page-drawer;
+}
+
+::view-transition-old(page-drawer),
+::view-transition-new(page-drawer) {
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(page-drawer),
+  ::view-transition-new(page-drawer) {
+    animation-duration: 0.001s;
+  }
+}
+
+// In content mode the graph is purely visual — pointer-events off so D3's
+// zoom-on-wheel handler can't intercept scroll events when the cursor hovers
+// over the 60px graph-peek strip above the article. Re-enabled in graph mode
+// AND on the home page (where the graph IS the hero — always interactive).
+#background-graph {
+  pointer-events: none;
+}
+
+body[data-slug="index"] #background-graph,
+body.graph-focused #background-graph {
+  pointer-events: auto;
 }
 
 // Graph mode: full graph visible, title always peeks at the bottom (~50px)
 body.graph-focused {
   .page {
     transform: translateY(calc(100vh - 50px));
-  }
-  #background-graph {
-    pointer-events: auto;
   }
   #graph-overlay {
     opacity: 0;
@@ -3188,7 +3010,8 @@ body.graph-focused {
 }
 
 // Collapse/expand toggle button — wide chevron showing gesture direction
-// Content mode: top-right. Graph mode: bottom-center (above the 50px title peek).
+// Content mode: top-center (hero affordance). Graph mode: bottom-center
+// (above the 50px title peek).
 #panel-toggle {
   position: fixed;
   z-index: 10;
@@ -3204,12 +3027,12 @@ body.graph-focused {
   align-items: center;
   justify-content: center;
   padding: 0;
-  // Default (content mode): top-right
+  // Default (content mode): top-center
   top: 1rem;
-  right: 1rem;
+  right: auto;
   bottom: auto;
-  left: auto;
-  transform: none;
+  left: 50%;
+  transform: translateX(-50%);
   transition:
     opacity 0.2s,
     background-color 0.2s,
@@ -3224,17 +3047,16 @@ body.graph-focused {
     background: var(--lightgray);
   }
 
-  // Default (content mode): show "up" chevron — gesture: scroll up to reveal graph
+  // Default (content mode): show "down" chevron — content will drop down to reveal graph
   .toggle-icon-up {
-    display: block;
+    display: none;
   }
   .toggle-icon-down {
-    display: none;
+    display: block;
   }
 }
 
-// Graph mode: button moves to bottom-center, shows "down" chevron
-// — gesture: scroll/click down to bring back content
+// Graph mode: button moves to bottom-center, shows "up" chevron — content will lift back up
 body.graph-focused #panel-toggle {
   top: auto;
   right: auto;
@@ -3243,10 +3065,10 @@ body.graph-focused #panel-toggle {
   transform: translateX(-50%);
 
   .toggle-icon-up {
-    display: none;
+    display: block;
   }
   .toggle-icon-down {
-    display: block;
+    display: none;
   }
 }
 
@@ -3300,17 +3122,19 @@ body.graph-focused #panel-toggle {
   transform: translateX(-100%);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
-  // Dark gradient for readability over the busy graph
+  // Dark gradient for readability — strong on the left so explorer text reads
+  // clearly over the content card peek; fades to transparent by 60% to keep the
+  // graph background visible toward the right edge.
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0.45) 10%,
-    rgba(0, 0, 0, 0.25) 20%,
-    rgba(0, 0, 0, 0.1) 30%,
-    transparent 40%
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.75) 15%,
+    rgba(0, 0, 0, 0.55) 30%,
+    rgba(0, 0, 0, 0.25) 45%,
+    transparent 60%
   );
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 
   & > .sidebar.left {
     pointer-events: auto;
@@ -3322,54 +3146,12 @@ body.graph-focused #panel-toggle {
     padding: 4rem 2rem 0 2rem;
     margin-top: 0;
   }
-
-  & > .sidebar-resizer {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 6px;
-    cursor: col-resize;
-    pointer-events: auto;
-    z-index: 4;
-
-    @media (max-width: 800px) {
-      display: none;
-    }
-  }
 }
 
 // Slide drawer in when open
 body.drawer-open #sidebar-overlay {
   transform: translateX(0);
   pointer-events: auto;
-}
-
-// Drawer close button (X) — top-right corner inside the drawer
-#drawer-close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  z-index: 4;
-  width: 32px;
-  height: 32px;
-  border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: rgba(0, 0, 0, 0.3);
-  color: rgba(255, 255, 255, 0.7);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  opacity: 0.7;
-  transition:
-    opacity 0.2s,
-    background-color 0.2s;
-  &:hover {
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.5);
-  }
 }
 
 // Tree toggle button — top-left, mirrors the search button on top-right
@@ -3401,12 +3183,8 @@ body.drawer-open #sidebar-overlay {
   }
 }
 
-// Hide tree button when drawer is open (slides off-screen left)
-body.drawer-open #tree-toggle {
-  transform: translateX(calc(-100% - 2rem));
-  pointer-events: none;
-  opacity: 0;
-}
+// Tree button stays visible whether drawer is open or closed (Claude-style toggle).
+// Click toggles open ↔ closed.
 
 // Content card layout: full-width by default; offset right when drawer is open (desktop only)
 @media (min-width: 801px) {
@@ -3434,72 +3212,85 @@ body.drawer-open #tree-toggle {
   }
 }
 
-// === Search button — floating square at top-right, consistent across breakpoints ===
-// Lifted out of mobile-only media query so it appears at top-right on every screen size.
-.sidebar.left {
-  & > .search {
-    & > #search-button {
-      position: fixed;
-      top: calc(1rem + 36px + 5px); // 5px below the panel-toggle slot
-      right: 1rem;
-      z-index: 10;
-      width: 44px;
-      height: 36px;
-      padding: 0;
-      border-radius: 8px;
-      border: 1px solid var(--lightgray);
-      background: var(--light);
-      color: var(--dark);
-      opacity: 0.85;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      pointer-events: auto;
-      transition:
-        opacity 0.2s,
-        background-color 0.2s;
+// === Search button — top-level floating button, immediately right of the tree button ===
+// Tree button is at left:1rem (width 44px), so search lands at left:1rem + 44px + 5px gap.
+// Now rendered directly in renderPage.tsx as a sibling of #quartz-root (no longer
+// nested inside the sidebar), so the selector flattens to just #search-button.
+#search-button {
+  position: fixed;
+  top: 1rem;
+  left: calc(1rem + 44px + 5px);
+  right: auto;
+  z-index: 10;
+  width: 44px;
+  height: 36px;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  transition:
+    opacity 0.2s,
+    background-color 0.2s;
 
-      &:hover {
-        opacity: 1;
-        background: var(--lightgray);
-      }
+  &:hover {
+    opacity: 1;
+    background: var(--lightgray);
+  }
 
-      // Hide the "Search" text label, show only the magnifying-glass icon
-      & > p {
-        display: none;
-      }
-    }
+  // Hide the "Search" text label, show only the magnifying-glass icon
+  & > p {
+    display: none;
   }
 }
 
 // ============================================================================
-// FlashcardsHeader strip — persistent fixed strip near top of viewport
-// Sits below the existing top-of-page chrome. ~36-40px tall, full width,
-// content centered. Z-index 30: above article + graph, below modals (~9990+).
+// FlashcardsHeader — right-cluster pill (desktop) / icon (mobile)
+// Sits in the top stripe next to the avatar slot at far right.
+// Desktop (≥801px): pill with text "Flashcards · N due"
+// Mobile (≤800px):  compact 44×36 icon with a red badge for N due
+// Click → opens DecksModal.
 // ============================================================================
 
 #flashcards-header.flashcards-header {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 30;
+  top: 1rem;
+  // Sits left of #topbar-auth (right:1rem, width 36px) with 5px gap
+  right: calc(1rem + 36px + 5px);
+  left: auto;
+  transform: none;
+  z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.65rem;
-  padding: 0.4rem 0.75rem;
-  min-height: 36px;
-  background: color-mix(in srgb, var(--light) 88%, transparent);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
+  height: 36px;
+  padding: 0 0.75rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
   font-size: 0.85rem;
   color: var(--darkgray);
   pointer-events: auto;
+  opacity: 0.85;
+  transition:
+    opacity 0.2s,
+    background-color 0.2s;
+
+  &:hover {
+    opacity: 1;
+    background: var(--lightgray);
+  }
 }
 
 .flashcards-header-label {
+  position: relative; // anchor the badge on mobile
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   background: none;
   border: none;
   padding: 0.25rem 0.6rem;
@@ -3514,65 +3305,67 @@ body.drawer-open #tree-toggle {
 
   &:hover,
   &:focus-visible {
-    background: color-mix(in srgb, var(--lightgray) 50%, transparent);
     color: var(--dark);
     outline: none;
   }
 }
 
-.flashcards-header-play {
+.flashcards-header-icon {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  padding: 0;
-  border: 1px solid color-mix(in srgb, var(--secondary) 50%, transparent);
-  border-radius: 50%;
-  background: var(--secondary);
-  color: var(--light);
-  cursor: pointer;
-  transition:
-    transform 0.12s ease,
-    background 0.15s,
-    border-color 0.15s;
+  opacity: 0.9;
 
-  &:hover,
-  &:focus-visible {
-    transform: scale(1.06);
-    outline: none;
-  }
-
-  // Show play glyph by default, swap to stop glyph during session
-  .flashcards-header-icon-stop {
-    display: none;
+  svg {
+    width: 14px;
+    height: 14px;
   }
 }
 
-.flashcards-header.flashcards-header--session .flashcards-header-play {
-  background: var(--dark);
-  border-color: var(--dark);
-
-  .flashcards-header-icon-play {
-    display: none;
-  }
-  .flashcards-header-icon-stop {
-    display: inline-block;
-  }
+// Badge — only visible in the mobile icon mode (≤800px) when N due > 0
+.flashcards-header-badge {
+  display: none;
 }
 
-// Push everything that the page-shell positions at top:0 down by the strip
-// height so we don't overlap the graph-toggle button, breadcrumbs, etc.
-// Most chrome already sits at top:0; nudging via padding on body is cleanest.
-body {
-  --flashcards-header-height: 36px;
-}
-
-@media (max-width: 600px) {
+// Mobile: collapse the pill into a 44×36 icon-only button with a numeric badge
+@media (max-width: 800px) {
   #flashcards-header.flashcards-header {
-    min-height: 32px;
-    padding: 0.3rem 0.5rem;
-    font-size: 0.8rem;
+    width: 44px;
+    height: 36px;
+    padding: 0;
+    justify-content: center;
+  }
+  .flashcards-header-label {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+  }
+  .flashcards-header-text {
+    display: none;
+  }
+  .flashcards-header-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+  // Badge only shows when populated (the script clears textContent when N=0)
+  .flashcards-header-badge:not(:empty) {
+    display: inline-flex;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 4px;
+    border-radius: 8px;
+    background: #d33;
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    line-height: 1;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
   }
 }
 
@@ -3632,17 +3425,46 @@ body {
 
 .decks-modal-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 0.75rem;
   padding: 1rem 1.25rem 0.75rem;
   border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
 }
 
+.decks-modal-header-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
 .decks-modal-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.05rem;
   font-weight: 600;
   margin: 0;
   color: var(--dark);
+}
+
+.decks-modal-title-icon {
+  display: inline-flex;
+  align-items: center;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.decks-modal-subtitle {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--gray);
+  line-height: 1.35;
 }
 
 .decks-modal-header-actions {
@@ -4180,9 +4002,12 @@ html[data-spa-transition="backward"]::view-transition-new(root) {
 }
 
 // ============================================================================
-// FirstLoadHint — one-time tooltip pointing at the strip ▶ button
-// Positioned in JS (top/left set inline based on play button rect).
-// Auto-dismisses after 5s, on Esc, or any click.
+// FirstLoadHint — one-time ghost tooltip under the Flashcards strip
+// Discrete dark pill that mirrors the strip's geometry (inverted colors).
+// Symmetrical cycle: 0.35s fade-in → 1.5s hold at 0.5 opacity → 0.35s fade-out → removed.
+// Manual dismiss (click anywhere / Esc) cuts straight to the 0.35s fade-out
+// from whatever opacity the hint is currently at — same speed, just sooner.
+// Positioned in JS (top/left set inline based on label rect).
 // ============================================================================
 
 .first-load-hint {
@@ -4192,46 +4017,37 @@ html[data-spa-transition="backward"]::view-transition-new(root) {
   pointer-events: none;
   display: inline-flex;
   align-items: center;
-  padding: 0.5rem 0.85rem;
+  height: 36px;
+  padding: 0 0.75rem;
   background: var(--dark);
   color: var(--light);
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 0.85rem;
   font-weight: 500;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-  animation: first-load-hint-enter 0.25s cubic-bezier(0.2, 0.9, 0.3, 1);
+  opacity: 0;
+  // 0.35s fade-in + 1.5s hold + 0.35s fade-out = 2.2s total
+  // Keyframe stops: 15.91% (0.35/2.2) and 84.09% (1.85/2.2)
+  animation: first-load-hint-cycle 2.2s ease-in-out forwards;
 }
 
 .first-load-hint.first-load-hint--leaving {
+  animation: none;
+  transition: opacity 0.35s ease-in-out;
   opacity: 0;
-  transform: translateX(-50%) translateY(-4px);
-  transition:
-    opacity 0.18s,
-    transform 0.18s;
 }
 
-.first-load-hint-arrow {
-  position: absolute;
-  top: -5px;
-  left: 50%;
-  transform: translateX(-50%) rotate(45deg);
-  width: 10px;
-  height: 10px;
-  background: var(--dark);
-}
-
-.first-load-hint-text {
-  position: relative;
-}
-
-@keyframes first-load-hint-enter {
-  from {
+@keyframes first-load-hint-cycle {
+  0% {
     opacity: 0;
-    transform: translateX(-50%) translateY(-6px);
   }
-  to {
-    opacity: 1;
-    transform: translateX(-50%) translateY(0);
+  15.91% {
+    opacity: 0.5;
+  }
+  84.09% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -4286,4 +4102,247 @@ body[data-training-active] {
   body[data-training-active] #flashcard-container::before {
     animation: none;
   }
+}
+
+// ============================================================================
+// Graph-close button (×) — top-right corner in graph mode
+// Conventional exit affordance; complements the bottom-center chevron metaphor.
+// ============================================================================
+#graph-close-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  width: 44px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition:
+    opacity 0.25s ease,
+    background-color 0.2s;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--lightgray);
+    outline: none;
+  }
+}
+
+body.graph-focused #graph-close-btn {
+  opacity: 0.85;
+  pointer-events: auto;
+}
+body.graph-focused #graph-close-btn:hover {
+  opacity: 1;
+}
+
+// ============================================================================
+// RollSessionButton — play icon, graph-mode-only, top-center
+// In content mode it is hidden entirely. In graph mode it pins to top-center
+// and fades in with a 200ms delay so the panel-toggle chevron (which animates
+// from top-center to bottom-center over 300ms) has cleared the area first.
+// On exit (graph → content) it fades out fast (120ms, no delay) so the chevron
+// can return to top-center cleanly.
+// ============================================================================
+#roll-session-btn {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 44px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  // Default (content mode): fast fade-out, no delay
+  transition:
+    opacity 0.12s ease,
+    background-color 0.2s,
+    transform 0.12s ease;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--lightgray);
+    outline: none;
+  }
+
+  .roll-session-icon-play {
+    display: block;
+  }
+  .roll-session-icon-stop {
+    display: none;
+  }
+
+  &.roll-session-btn--active {
+    background: var(--dark);
+    color: var(--light);
+    .roll-session-icon-play {
+      display: none;
+    }
+    .roll-session-icon-stop {
+      display: block;
+    }
+  }
+}
+
+// Graph mode: roll button fades in after the chevron has cleared top-center.
+body.graph-focused #roll-session-btn {
+  opacity: 0.85;
+  pointer-events: auto;
+  transition:
+    opacity 0.2s ease 0.2s,
+    background-color 0.2s,
+    transform 0.12s ease;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+  }
+}
+
+// ============================================================================
+// Top-bar avatar slot — 36×36 round button at top-right
+// Populated by authUI.inline.ts (renderTopBarAuth). Shows the SSO avatar when
+// signed in; a person silhouette + small dot when signed out.
+// ============================================================================
+#topbar-auth {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  pointer-events: auto;
+}
+
+.topbar-auth-btn {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0.85;
+  transition:
+    opacity 0.2s,
+    background-color 0.2s;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+    background: var(--lightgray);
+    outline: none;
+  }
+}
+
+.topbar-auth-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.topbar-auth-avatar--initial {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary);
+  color: var(--light);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.topbar-auth-silhouette {
+  width: 22px;
+  height: 22px;
+  opacity: 0.7;
+}
+
+// Small "·" indicator dot — signals "not signed in" without a text label.
+.topbar-auth-dot {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--secondary);
+  border: 2px solid var(--light);
+  box-sizing: border-box;
+}
+
+// Dropdown menu (signed in) — opens below the avatar, anchored right
+.topbar-auth-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 140px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  z-index: 11;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.topbar-auth-menuitem {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: var(--dark);
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--lightgray);
+    outline: none;
+  }
+}
+
+// ============================================================================
+// Mobile drawer fix — force the Explorer to render inside the drawer regardless
+// of its DesktopOnly wrapper (explorer.scss hides .desktop-only on mobile).
+// Scoped to inside #sidebar-overlay so we don't expose it anywhere else.
+// ============================================================================
+#sidebar-overlay .explorer {
+  display: flex;
 }
